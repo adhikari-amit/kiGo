@@ -1,7 +1,9 @@
 package main
 
-import "GO200/mutex"
+import (
+	"GO200/channel"
+)
 
 func main() {
-	mutex.Mutex()
+	channel.Channel()
 }
